@@ -64,8 +64,8 @@
     height: 20px !important;
 }
 .car-image img{height: 750px;}
-.content {display: flex; justify-content: space-between;align-items: flex-start; padding-left: 15px;}
-.content__descriptor { width: 25%; border-top: 1px solid #7b7b7b; padding-top: 4rem;}
+.content { justify-content: space-between; align-items: flex-start; padding-left: 15px;}
+.content__descriptor {  border-top: 1px solid #7b7b7b; padding-top: 4rem;}
 .content__title {
     font-size: 4rem;
     font-weight: 900;
@@ -76,7 +76,7 @@
     justify-content: flex-start;
     align-items: flex-end;
     gap: 1rem;
-    width: 50%;
+    margin-right: 20px;
     border-top: 1px solid #7b7b7b;
     margin-right: 10rem;
     padding: 4rem 0;
@@ -269,5 +269,14 @@
 }
 
 @media only screen and (max-width: 920px){
-.content__text-box {margin-right: 0;}
+.content__text-box {margin-right: 20px;}
+.content__descriptor{ padding-top: 2rem;}
+.bacg-light{ display: block;}
+.Social-media {padding-top: 20px; padding-bottom: 10px;}
 }
+@media only screen and (min-width: 921px){
+    
+    .content__descriptor{width: 25%;;}
+    .content__text-box{ width: 50%;}
+    .content{display: flex;}
+    }
