@@ -1,282 +1,73 @@
 .bacg-light {background-color: #fac092; }
 .d-inline-block {width: 50% ;}
 
-.Social-media{
-    display: flex;
-    justify-content: center;
-  }
-  .soc-med{
-    display: flex;
-    background: #fff;
-    height: 38px;
-    width: 40px;
-    margin: 0 15px;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    box-shadow: 6px 6px 10px -1px rgba(0,124,196,0.15),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: 1px solid rgba(0, 124, 196, 0);
-    transition: transform 0.5s;
-    color: #007cc4;
-  }
-  .soc-med i{
-    font-size: 24px;
-    color:  #777;
-    transition: transform 0.5s;
-  }
-  .soc-med:hover{
-    box-shadow:inset 4px 4px 6px -2px rgba(0,0,0,0.2),
-                inset -4px -4px 6px -1px rgba(255,255,255,0.7),
-                      -0.5px -0.5px 0px -1px rgba(255,255,255,1),
-                      0.5px 0.5px 0px rgba(0,0,0,0.15),
-                      0px 12px 10px -10px rgba(0,0,0,0.05);
-    border: 1px solid rgba(0, 124, 196, 0.1);
-    transform: translateY(2px);
-  }
-  .soc-med:hover i{
-    transform: scale(0.90);
-  }
-  .soc-med:hover .fa-facebook{
-    color: #3b5998;
-  }
-  .soc-med:hover .fa-twitter{
-    color: #00acee;
-  }
-  .soc-med:hover .fa-whatsapp{
-    color: #4fce5d;
-  }
-  .soc-med:hover .fa-instagram{
-    color: #f14843;
-  }
-  .soc-med:hover .fa-youtube{
-    color: #f00;
-  }
+.Social-media{display: flex;justify-content: center;}
+.soc-med{display: flex;background: #fff;height: 38px;width: 40px;margin: 0 15px;border-radius: 8px;align-items: center;justify-content: center;text-decoration: none;box-shadow: 6px 6px 10px -1px rgba(0,124,196,0.15),-6px -6px 10px -1px rgba(255,255,255,0.7);border: 1px solid rgba(0, 124, 196, 0);transition: transform 0.5s;color: #007cc4;}
+.soc-med i{font-size: 24px;color:  #777;transition: transform 0.5s;}
+.soc-med:hover{box-shadow:inset 4px 4px 6px -2px rgba(0,0,0,0.2),inset -4px -4px 6px -1px rgba(255,255,255,0.7), -0.5px -0.5px 0px -1px rgba(255,255,255,1), 0.5px 0.5px 0px rgba(0,0,0,0.15),  0px 12px 10px -10px rgba(0,0,0,0.05);border: 1px solid rgba(0, 124, 196, 0.1);transform: translateY(2px);}
+.soc-med:hover i{transform: scale(0.90);}
+.soc-med:hover .fa-facebook{color: #3b5998;}
+.soc-med:hover .fa-twitter{color: #00acee;}.soc-med:hover .fa-whatsapp{color: #4fce5d;}
+.soc-med:hover .fa-instagram{color: #f14843;}
+.soc-med:hover .fa-youtube{color: #f00;}
   
-
-.owl-dots {
-    position: relative;
-    bottom: 50px;
-}
-.owl-theme .owl-dots .owl-dot span {
-    width: 20px !important;
-    height: 20px !important;
-}
+.owl-dots {position: relative;bottom: 50px;}
+.owl-theme .owl-dots .owl-dot span {width: 20px !important;height: 20px !important;}
 .car-image img{height: 750px;}
 .content { justify-content: space-between; align-items: flex-start; padding-left: 15px;}
 .content__descriptor {  border-top: 1px solid #7b7b7b; padding-top: 4rem;}
-.content__title {
-    font-size: 4rem;
-    font-weight: 900;
-}
-.content__text-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    gap: 1rem;
-    margin-right: 20px;
-    border-top: 1px solid #7b7b7b;
-    margin-right: 10rem;
-    padding: 4rem 0;
-}
-.content__text {
-    text-align: justify;
-}
+.content__title {font-size: 4rem;font-weight: 900;}
+.content__text-box {display: flex;flex-direction: column;justify-content: flex-start;align-items: flex-end;gap: 1rem;margin-right: 20px;border-top: 1px solid #7b7b7b;margin-right: 10rem;padding: 4rem 0;}
+.content__text {text-align: justify;}
 .ser .row{display: flex;}
-
 .column {width: 100%;padding: 0 1em 1em 1em;text-align: center;}
-.card {
-    padding: 30px;
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  margin: 0 10px 40px 10px;
-  background: #fff;
-  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
-  transition: all 0.3s ease-in-out;
-  text-align: center;
-  height: 200px;
-  }
-
-  .icon-wrapper {
-    font-size: 36px;
-    line-height: 1;
-    margin: 0 auto 15px auto;
-  padding-top: 12px;
-  display: inline-block;
-  text-align: center;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background-color: black;
-  color: #c59c35;
-  }
-  .card h3{ font-size: 22px;}
-
-  .footer-distributed{
-	background: rgb(0, 0, 0);
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px;
-	padding: 55px 50px;
-}
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
+.card {padding: 30px;position: relative;overflow: hidden;border-radius: 10px;margin: 0 10px 40px 10px;background: #fff;box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);transition: all 0.3s ease-in-out;text-align: center;height: 200px;}
+.icon-wrapper {font-size: 36px;line-height: 1;margin: 0 auto 15px auto;padding-top: 12px;display: inline-block;text-align: center;border-radius: 50%;width: 60px;height: 60px;background-color: black;color: #c59c35;}
+.card h3{ font-size: 22px;}
+.footer-distributed{background: rgb(0, 0, 0);box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);box-sizing: border-box;width: 100%;text-align: left;font: bold 16px;padding: 55px 50px;}
+.footer-distributed .footer-left,.footer-distributed .footer-center,.footer-distributed .footer-right{display: inline-block;vertical-align: top;}
 /* Footer left */
-
-.footer-distributed .footer-left{
-	width: 40%;
-}
+.footer-distributed .footer-left{width: 40%;}
 
 /* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  lightseagreen;
-}
+.footer-distributed h3{color:  #ffffff;font: normal 36px 'Open Sans', cursive;margin: 0;}
+.footer-distributed h3 span{color:  lightseagreen;}
 
 /* Footer links */
-
-
-
-.footer-distributed .footer-company-name{
-	color:  rgb(233, 208, 100);
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
+.footer-distributed .footer-company-name{color:  rgb(233, 208, 100);font-size: 14px;font-weight: normal;margin: 0;}
 
 /* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 35%;
-}
-
-.footer-distributed .footer-center i{
-	background-color:  #33383b;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: normal;
-	font-size:14px;
-	line-height:2;
-}
-
-.footer-distributed .footer-center p a{
-	color:  lightseagreen;
-	text-decoration: none;;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
-
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
+.footer-distributed .footer-center{width: 35%;}
+.footer-distributed .footer-center i{background-color:  #33383b;color: #ffffff;font-size: 25px;width: 38px;height: 38px;border-radius: 50%;text-align: center;line-height: 42px;margin: 10px 15px;vertical-align: middle;}
+.footer-distributed .footer-center i.fa-envelope{font-size: 17px;line-height: 38px;}
+.footer-distributed .footer-center p{display: inline-block;color: #ffffff;font-weight:400;vertical-align: middle;margin:0;}
+.footer-distributed .footer-center p span{display:block;font-weight: normal;font-size:14px;line-height:2;}
+.footer-distributed .footer-center p a{color:  lightseagreen;text-decoration: none;}
+.footer-distributed .footer-links a:before {content: "|";font-weight:300;font-size: 20px;left: 0;color: #fff;display: inline-block;padding-right: 5px;}
+.footer-distributed .footer-links .link-1:before {content: none;}
 
 /* Footer Right */
-
-.footer-distributed .footer-right{
-	width: 20%;
-}
-
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #92999f;
-	font-size: 13px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: bold;
-	margin-bottom: 20px;
-}
-
-
+.footer-distributed .footer-right{width: 20%;}
+.footer-distributed .footer-company-about{line-height: 20px;color:  #92999f;font-size: 13px;font-weight: normal;margin: 0;}
+.footer-distributed .footer-company-about span{display: block;color:  #ffffff;font-size: 14px;font-weight: bold;margin-bottom: 20px;}
 .footer-company-name a{ color: #e9d064; font-weight: 700;}
 
-
 /* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 880px) {
-
-	.footer-distributed{
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-center,
-	.footer-distributed .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
-
-	.footer-distributed .footer-center i{
-		margin-left: 0;
-	}
-
+	.footer-distributed{font: bold 14px sans-serif;}
+	.footer-distributed .footer-left,.footer-distributed .footer-center,.footer-distributed .footer-right{display: block;width: 100%;margin-bottom: 40px;text-align: center;}
+	.footer-distributed .footer-center i{margin-left: 0;}
 }
 
 @media only screen and (max-width: 920px){
-.content__text-box {margin-right: 20px;}
-.content__descriptor{ padding-top: 2rem;}
-.bacg-light{ display: block;}
-.Social-media {padding-top: 20px; padding-bottom: 10px;}
+    .content__text-box {margin-right: 20px;}
+    .content__descriptor{ padding-top: 2rem;}
+    .bacg-light{ display: block;}
+    .Social-media {padding-top: 20px; padding-bottom: 10px;}
 }
+
 @media only screen and (min-width: 921px){
-    
     .content__descriptor{width: 25%;;}
     .content__text-box{ width: 50%;}
     .content{display: flex;}
-    }
+}
