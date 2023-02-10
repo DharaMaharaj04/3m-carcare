@@ -13,7 +13,7 @@ function Footer() {
           <h3>3M car care surat</h3>
       
       
-          <p className="footer-company-name">Scriptics.ai © 2023</p>
+          <p className="footer-company-name"><a href="www.scriptics.ai">Scriptics.ai</a> © 2023</p>
         </div>
       
         <div className="footer-center">
