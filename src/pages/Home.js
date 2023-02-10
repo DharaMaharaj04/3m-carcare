@@ -30,19 +30,19 @@ export default class Home extends Component {
                 <OwlCarousel className="owl-theme" {...options} >
                     <div className='slide-1'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/3m-car-1.jpeg' alt='3m-car-1' />   
+                            <img src='/assets/img/3m-car-1.jpg' alt='3m-car-1' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div> 
                     </div>
                     <div className='slide-2'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/3m-car-2.jpeg' alt='3m-car-2' />   
+                            <img src='/assets/img/3m-car-2.jpg' alt='3m-car-2' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div> 
                     </div>
                     <div className='slide-3'>  
                         <div className='slide-img'>
-                            <img src='/assets/img/3m-car-3.jpeg' alt='3m-car-3' />   
+                            <img src='/assets/img/3m-car-3.jpg' alt='3m-car-3' />   
                             <div className='slider-overlay-amethyst'></div>  
                         </div> 
                     </div>
